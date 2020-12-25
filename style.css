@@ -1,0 +1,26 @@
+html
+{
+  height: 100%;
+}
+
+body{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  color: rgba(0,0,0,.5);
+  height:100%;
+  background-color:"white";
+}
+
+
+h1{
+   font: 600 3.5rem 'Raleway', sans-serif;
+   letter-spacing: .5em;
+   padding-top: 8%;
+}
+
+h2
+{
+   letter-spacing: 0.01em;
+}
