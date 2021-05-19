@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gradient Background Stimulator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/9bb8901042.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+  </head>
+  <body id = gradient>
+    <h1>Background Stimulator</h1>
+  	<p>Left-Right</p><br>
+  	<input class="color1" type="color" name="color1" value="#00ff00">
+  	<input class="color2" type="color" name="color2" value="#ff0000">
+  	<p>Top-Bottom</p><br>
+  	<input class="color3" type="color" name="color3" value="#00ff00">
+  	<input class="color4" type="color" name="color4" value="#ff0000">
+  	<h2>Current CSS Background</h2>
+    <footer id="footer">
+  <div class="foot">
+    <a href="https://github.com/pandeyom331"><i class="git fab fa-github fa-1x "></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100004398076666"><i class="git fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/om_pandey305/"><i class="git fab fa-instagram "></i></a>
+    <a class="email" href="mailto:pandeyom305@gmail.com"><i class="git fas fa-envelope"></i></a>
+  </div> 
+      <p>Copyright &#169; <span id="year"></span> Background-Stimulator  </p>
+</footer>
+     <script type="text/javascript" src= "script.js"></script>
+     <script>
+  var year = new Date();
+  var newYear = year.getFullYear();
+  document.getElementById("year").innerHTML = newYear;
+  </script>
+  </body>
+</html>
